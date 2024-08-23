@@ -113,3 +113,56 @@
     color: #333333;
     font-size: 20px;
 }
+
+#aceito-politica{
+    height: 24px;
+    width: 24px;
+}
+
+#checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.info-data{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.info-center{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info-data label{
+    font-size: 18px;
+    color: #333333;
+}
+
+.info-data input{
+    width: 100%;
+    border: 1px solid #E6E6F0;
+    padding: 0 24px;
+    border-radius: 8px;
+    height: 56px;
+    color: #6c6a71;
+}
+
+.info-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info-btn button{
+    background-color: #04D361;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}

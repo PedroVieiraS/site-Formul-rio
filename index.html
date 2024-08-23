@@ -57,11 +57,34 @@
                         <label for="password" id="password">Senha de acesso para os participantes (mínimo 8 caracteres)</label>
                         <input type="password">
 
-                        <input type="checkbox" id="aceito-politica" name="politica" required/>
-                        <label for="aceito-politica">Evento</label>
+                        <div id="checkbox">
+                            <input type="checkbox" id="aceito-politica" name="politica" required/>
+                            <label for="aceito-politica">Evento Privado</label>
+                        </div>
                     </div>
                 </fieldset>
-                
+                <fieldset class="fieldset-info">
+                    <legend>Dia e hora</legend>
+                    <div class="info-data">
+                        <div class="info-center">
+                            <label for="data">Data do evento</label>
+                            <input type="date" id="data" name="data">
+                        </div>
+                        <div class="info-center">
+                            <label for="evento-inicio">Das</label>
+                            <input type="time" name="" id="">
+                        </div>
+                        <div class="info-center">
+                            <label for="evento-fim">Ate</label>
+                            <input type="time" name="" id="">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="fieldset-info">
+                    <div class="info-btn">
+                        <button>Salvar evento</button>
+                    </div>
+                </fieldset>
             </form>
         </main>
         
