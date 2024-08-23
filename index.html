@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div class="principal">
+        <header class="header">
+            <div class="interior-da-head">
+                <h1>
+                    Crie e compartilhe <br> seu evento.
+                </h1>
+                <p>
+                    O primeiro passo,e preecher esse formulario de<br> inscricao.
+                </p>
+            </div>
+        </header>
+        <main class="main-form">
+            <form class="container">
+                <fieldset class="fieldset-info">
+                    <legend>Informacoes do Evento</legend>
+                    <div class="info-envt">
+                        <label for="name">Titulo do evento <span>(minimo 8 caracteres)</span></label>
+                        <input type="text" id="name" name="name" required maxlength="10"/>
+    
+                        <label for="evento-link"> Link do evento <span>(comece com http://)</span></label>
+                        <input type="url" id="website" name="website"> 
+    
+                        <label for="Whatsapp">Whatsapp para contato <span>somente numeros</span></label>
+                        <input type="number">
+                        
+                        <label for="info-extra">Informacoes extras</label>
+                        <textarea name="info" id="info-extra"></textarea>
+    
+                        <label for="categoria">Categoria</label>
+                        <select name="event" id="event">
+                            <option value="aovivo">Ao vivo</option>
+                            <option value="podcast">Podcast</option>
+                            <option value="mentoria">Mentoria</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset class="fieldset-info">
+                    <legend>Privacidade</legend>
+                    <div class="info-envt">
+                        <div class="info-envt">
+
+                        </div>
+                        <label for="email" id="email">E-mail do administrador <span>(digite um email válido)</span></label>
+                        <input type="email">
+
+                        <label for="password" id="password">Senha de acesso para os participantes (mínimo 8 caracteres)</label>
+                        <input type="password">
+
+                        <input type="checkbox" id="aceito-politica" name="politica" required/>
+                        <label for="aceito-politica">Evento</label>
+                    </div>
+                </fieldset>
+                
+            </form>
+        </main>
+        
+    </div>
+  </body>
+</html>
